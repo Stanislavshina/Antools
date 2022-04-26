@@ -1,0 +1,25 @@
+.brands{
+   margin-bottom: 220px;
+   &-container{
+      background: rgba(44, 53, 61, 0.2);
+      backdrop-filter: blur(50px);
+      border-radius: 25px;
+      padding-top: 65px;
+      padding-bottom: 55px;
+      .brands__title{
+         text-align: center;
+         font-weight: 500;
+         font-size: 24px;
+         line-height: 36px;
+         color: rgba(255, 255, 255, 0.8);
+         margin-bottom: 70px;
+      }
+      .brands__items{
+         list-style: none;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         gap: 105px;
+      }
+   }
+}

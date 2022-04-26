@@ -1,0 +1,101 @@
+.list__tools{
+   list-style: none;
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 23px;
+   margin-bottom: 117px;
+   &-mini{
+      list-style: none;
+      margin-bottom: 0;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 23px;
+   }
+   
+   .list__tool{
+      max-width: 392px;
+      width: 100%;
+      border-radius: 15px;
+      padding: 33px 33px;
+      transition: ease-in-out 0.3s;
+      &-mini{
+         max-width: 288px;
+         width: 100%;
+         transition: ease-in-out 0.3s;
+         padding: 28px 21px;
+
+      }
+      .tool__content{
+         max-width: 326px;
+         width: 100%;
+         &-mini{
+            max-width: 245px;
+            width: 100%;
+         }
+      }
+      .tool__header{
+         display: flex;
+         align-items: flex-start;
+         margin-bottom: 30px;
+         .tool__logo{
+            margin-right: 30px;
+         }
+         .tool__titles{
+            .tool__title{
+               text-align: left;
+               font-weight: 500;
+               font-size: 24px;
+               line-height: 36px;
+               color: rgba(255, 255, 255, 0.78); 
+               // margin-bottom: 5px;
+            }
+            .tool__subtitle{
+               font-weight: 400;
+               font-size: 18px;
+               line-height: 27px;
+               color: rgba(255, 165, 55, 0.55);
+            }
+         }
+      }
+      .tool__body{
+         margin-bottom: 30px;
+         .tool__about{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 30px;
+            color: rgba(255, 255, 255, 0.78);
+         }
+      }
+      .tool__footer{
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         .tool__icons{
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            gap: 12px;
+         }
+      }
+      &:hover{
+         transition: ease-in-out 0.3s;
+         transform: translateY(-30px);
+         background: rgba(40, 48, 54, 0.6);
+         backdrop-filter: blur(50px);
+         &, .tool__content{
+            &, .tool__header{
+               &, .tool__titles{
+                  &, .tool__subtitle{
+                     color: #FFA537;
+                     transition: ease-in-out 0.3s;
+                  }
+               }
+            }
+            }
+         }
+      }
+      
+   }

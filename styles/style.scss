@@ -1,0 +1,26 @@
+@import "./__blocks/_normalize";
+body {
+   font-family: 'Poppins', sans-serif;
+   background-color: #1E252B;
+   font-size: 15px;
+   color: #fff
+}
+.fa, .far, .fas {
+   font-family: "Font Awesome 5 Free";
+}
+
+@import "./__blocks/_container";
+@import "./__blocks/_btns";
+@import "./__blocks/_header";
+@import "./__blocks/__intro";
+
+@import "./__blocks/_popular__tools";
+@import "./__blocks/_brands";
+@import "./__blocks/_new-tools";
+@import "./__blocks/_list-tools";
+@import "./__blocks/_reviews";
+@import "./__blocks/__contributor";
+@import "./__blocks/__footer";
+
+
+
